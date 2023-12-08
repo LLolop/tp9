@@ -3,7 +3,7 @@
 
 //application 1
 $chaine='a99a';                         
-var_dump(preg_match('/^[0-9]*$/', $chaine));    
+var_dump(preg_match('/[0-9]/', $chaine));    
 //ne matche pas, FALSE(0)
 //A VOUS : proposer-tester une chaine qui "matche"
 
